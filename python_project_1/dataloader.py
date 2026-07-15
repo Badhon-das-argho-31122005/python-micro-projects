@@ -1,6 +1,6 @@
 import csv
 class Titanicdataloader:
-    def __init__(self, file_path, batch_size=32, shufflebuffer=None):
+    def __init__(self, file_path, batch_size=32):
         self.file_path = file_path
         self.batch_size = batch_size
         self.file = None
